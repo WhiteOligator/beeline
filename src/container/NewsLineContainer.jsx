@@ -87,7 +87,7 @@ export const NewsLineContainer = memo(function NewsLine() {
           card
             .filter((news) => categorys.includes(news.category))
             .map((news, index) => (
-              <Grid key={uuidv4()} item container direction={"row"}>
+              <Grid key={`post-${index}`} item container direction={"row"}>
                 <Grid item xs={11}>
                   <CardLine {...news} />
                 </Grid>
