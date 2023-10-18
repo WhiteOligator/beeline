@@ -1,8 +1,18 @@
-# React + Vite
+# Проект бесконечный скролл Beeline
+# https://beeline-one.vercel.app/
+Данный проект создан с целью выполнения тестового задания компании Beeline. 
+Проект имеет название "бесконечный скролл Beeline". В "бесконечный скролл Beeline" вы можете прокучивая скролл получать актуальные новости. 
+Вы можете воспользоваться фильтром для выбора нужной вам ккатегории новостей.
+Если вы хотите загрузить свои новости, воспользуйтесь формой загрузки Excel.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+В данном проекте применяется "React18+", в качестве управления состоянием используется Redux. 
+Процесс роутинга осуществлё с помощью библиотеки "react-router-dom". 
+Код написан на языке "JavaScript". 
+В качестве стилей используется подход CSS in JS, используется библиотека Material UI. 
+Сборка осуществлена с использованием Vite.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Для скачивания проекта необходимо открыть ветку main скопировать протокол HTTPS https://github.com/WhiteOligator/beeline.git. 
+После этого в терминале IDE необходимо ввести команду git clone https://github.com/WhiteOligator/beeline.git. 
+Необходимо установить библиотеки командой npm install. 
+Для запуска проекта введите npm run dev. 
+Для деплоя проекта введите команду npm run build.
